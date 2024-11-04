@@ -51,7 +51,7 @@ export function CardPemenuhan() {
               axisLine={false}
               tickFormatter={(value) => value.slice(0, 3)}
             />
-            <ChartTooltip cursor={false} content={<ChartTooltipContent indicator="dashed" />} />
+            <ChartTooltip cursor={false} content={<ChartTooltipContent showPercentage />} />
             <Bar dataKey="karbohidrat" fill="var(--color-karbohidrat)" radius={4} />
             <Bar dataKey="protein" fill="var(--color-protein)" radius={4} />
             <Bar dataKey="lemak" fill="var(--color-lemak)" radius={4} />
